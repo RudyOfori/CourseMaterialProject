@@ -1,0 +1,116 @@
+section{
+	height: 400px;
+	background-color: #fff;
+}
+h3{
+	font-size: 24px;
+}
+hr{
+	max-width: 50px;
+}
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -110px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    text-align: center;
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 220px;
+    background-color: rgb(236, 209, 164);
+}
+
+#blog {
+    top: 290px;
+    background-color: rgb(21, 23, 64); /* Blue */
+}
+
+#projects {
+    top: 360px;
+    background-color: #f44336; /* Red */
+}
+
+#contact {
+    top: 430px;
+    background-color: #555 /* Light Black */
+}
+
+#welcome{
+	height: 450px;
+	background-color: rgb(240, 95, 64);
+	text-align: center;
+  	font-size: 1.6vw;
+  	color: #ffffff;
+  	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+#logo {
+	position: relative;
+	top: -400px;
+	left: -230px
+}
+#logo img {
+    border-radius: 50%;
+	position: relative;
+	float: left;
+	border:1px black solid; 
+	width:150px;
+
+}
+#text h2{
+	font-family: Times New Roman;
+	position: relative;
+	top: -200px;
+	font-size: 140px;
+}
+#text p{
+	font-family: Times New Roman;
+	position: relative;
+	top: -200px;
+	font-size: 20px;
+	left: 70px
+}
+#welcome p{
+	font-size: 12px;
+}
+#services{
+    height:500px; 
+  }
+ 
+@media screen and (max-width: 800px) {
+  #services{
+    height:60%; /* The height is 60%, when the viewport is 800px or smaller */
+  }
+}
+@media screen and (width: 1200px) {
+  #services h2,hr{
+	position:relative;
+	left: 90px; 
+}
+}
+
+#abutton{
+	font-size: 16px;
+	padding: 18px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+#black{
+	background-color: rgb(33, 37, 41);
+	color: #ffffff;
+	height: 300px;
+	width: 100%;
+}
+
+

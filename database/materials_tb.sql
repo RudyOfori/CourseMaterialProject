@@ -1,0 +1,10 @@
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (0, 'pdf', 'Numerical_analysis_1_1', '1', '1', 'Numerical analysis', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (2, 'pdf', 'Graphics', '3', '2', 'Graphics', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (3, 'excel', 'research', '3', '2', 'Research Projects and IT Project', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (4, 'ppt', 'data_structures', '3', '2', 'Data Structures', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (5, 'docx', 'operations', '3', '2', 'Operations Research II', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (6, 'pdf', 'embedded', '3', '2', 'Embedded System', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (7, 'pdf', 'ecomerce', '3', '2', 'E-Commerce', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (8, 'pdf', 'financial', '3', '2', 'Financial Accounting', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (9, 'pdf', 'architecture', '3', '2', 'Computer Architecture', 1);
+INSERT INTO `materials_tb`(`id`, `type`, `name`, `year`, `semester`, `course`, `dept_id`) VALUES (10, 'pdf', 'mini_project', '3', '2', 'Mini Projects', 1);
